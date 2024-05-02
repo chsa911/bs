@@ -1,11 +1,10 @@
 .img{
     display: none
 
-}
 p.one:hover + img{
     display: block;
 }
-
+h4,h7 { float: left; }
 p.two:hover img{
     display: block;
 }
