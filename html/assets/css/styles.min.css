@@ -4,12 +4,16 @@
 p.one:hover + img{
     display: block;
 }
-
-#icons{float:left;
-    width: 64px;
-    height: 64px;
-    margin:5px;
-   }
+.top {
+    height: 92px;
+}
+.left {
+    width: 178px;
+    float:left;
+}
+.main {
+  margin-left:178px;
+ }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
