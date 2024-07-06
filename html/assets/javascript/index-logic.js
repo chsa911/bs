@@ -26,7 +26,7 @@ function loadBooks(book, bookId) {
 
   let html = `
   <div class="col-md-4">
-  <div class="card mb-4 shadow-sm"><img class="bd-placeholder-img" width="100%" height="225"
+  <div class="card mb-4 shadow-sm"><img class="bd-placeholder-img"width="100%" height="225"
       src="assets/${book.image.path}">
     <div class="card-body">
       <p class="card-text"><b>${book.buchName}</b></p>
