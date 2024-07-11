@@ -30,7 +30,11 @@ p.one:hover + img{
 p.two:hover img{
     display: block;
 }
-
+.btn {
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid #333333;
+}
 .content {
     width: 400px;
     border: 4px solid red;
@@ -59,5 +63,21 @@ p.two:hover img{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.logo{
+position: relative;
+background: blue;
+height: 100px;
+width: 100px;
+top: 100px;
+left: 100px;
+}
+.homebutton{
+background: lightskyblue;
+height: 100px;
+width: 100px;
+position: relative;
+
+
 }
 }
